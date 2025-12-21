@@ -1,8 +1,8 @@
 # Technology Stack
 
-**Project**: InteractiveAgenticPrompts
+**Project**: InteractiveAgenticPrompts (KOTODAMA)
 **Last Updated**: 2025-12-21
-**Version**: 1.2
+**Version**: 1.4
 
 ---
 
@@ -153,6 +153,8 @@ flowchart LR
 2. **専門理論の根拠**: 各分野の主要理論・フレームワークを網羅
 3. **実用性**: 実際の教育現場で活用可能な内容
 4. **一貫性**: 用語・フォーマットの統一
+5. **回答品質強化**: 思考チェーン、品質チェックリスト、エラー回復プロンプトを全テンプレートに実装
+6. **AIモデル対応**: ChatGPT/Claude/Gemini向けの適用ガイドを全テンプレートに実装
 
 ---
 
@@ -176,6 +178,24 @@ flowchart LR
 
 ## Changelog
 
+### Version 1.4 (2025-12-21)
+
+- プロジェクト名をKOTODAMAとして明示
+- ドキュメント強化（README.md、ガイド文章説明追加）を反映
+
+### Version 1.3 (2025-12-21)
+
+- 全テンプレートに回答品質強化セクションを追加
+  - 思考チェーン（Chain of Thought）プロンプト
+  - 出力品質チェックリスト
+  - エラー回復プロンプト
+  - 回答の深さ調整ガイド
+- 全テンプレートにAIモデル別適用ガイドを追加
+  - ChatGPT (GPT-4) 向けガイド
+  - Claude 向けガイド
+  - Gemini 向けガイド
+- 全テンプレートをv1.1にバージョンアップ
+
 ### Version 1.2 (2025-12-21)
 
 - テンプレート数を32種類に拡充
@@ -191,4 +211,4 @@ flowchart LR
 ---
 
 **Last Updated**: 2025-12-21
-**Version**: 1.2
+**Version**: 1.4

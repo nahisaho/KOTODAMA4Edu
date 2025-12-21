@@ -1,8 +1,8 @@
 # Project Structure
 
-**Project**: InteractiveAgenticPrompts
+**Project**: InteractiveAgenticPrompts (KOTODAMA)
 **Last Updated**: 2025-12-21
-**Version**: 1.2
+**Version**: 1.4
 
 ---
 
@@ -69,7 +69,8 @@ InteractiveAgenticPrompts/
 │   ├── product.md            # プロダクトコンテキスト
 │   └── rules/                # ガバナンス
 │       └── constitution.md   # 憲法
-└── AGENTS.md                 # エージェント設定
+├── AGENTS.md                 # エージェント設定
+└── README.md                 # プロジェクトREADME
 ```
 
 ---
@@ -97,6 +98,15 @@ InteractiveAgenticPrompts/
 
 ## Phase 4: Meta-Prompt Generation
 [メタプロンプトテンプレート]
+
+## Phase 5: Response Generation
+[出力フォーマット]
+
+## 回答品質強化セクション
+[思考チェーン、品質チェックリスト、エラー回復プロンプト]
+
+## AIモデル別適用ガイド
+[ChatGPT/Claude/Gemini向けガイド]
 
 ## Phase 5: Response Generation
 [出力フォーマット]
@@ -271,6 +281,18 @@ nutrition-teacher-interactive-agentic-prompt.md を新規作成。
 
 ## Changelog
 
+### Version 1.4 (2025-12-21)
+
+- ルートディレクトリにREADME.mdを追加
+- プロジェクト名をKOTODAMAとして明示
+- ドキュメント構造を更新
+
+### Version 1.3 (2025-12-21)
+
+- IAP Template Structureに回答品質強化セクションを追加
+- IAP Template StructureにAIモデル別適用ガイドを追加
+- 全テンプレートをv1.1に更新
+
 ### Version 1.2 (2025-12-21)
 
 - ディレクトリ構造を32種類のテンプレートに対応
@@ -284,4 +306,4 @@ nutrition-teacher-interactive-agentic-prompt.md を新規作成。
 ---
 
 **Last Updated**: 2025-12-21
-**Version**: 1.2
+**Version**: 1.4
