@@ -356,6 +356,7 @@ Interactive Agentic Prompt では、理論を3層構造で組み込みます。
 | **ChatGPT (GPT-4)** | システムプロンプト対応 | Custom Instructionsに追記 |
 | **Claude** | 長文コンテキスト得意 | プロンプト全文貼り付け |
 | **Gemini** | 構造化データ得意 | 構造化して提示 |
+| **Microsoft 365 Copilot** | Microsoft製品統合 | Word/TeamsのCopilotで使用 |
 
 ---
 
@@ -2192,8 +2193,8 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 
 | リソース | URL | 説明 |
 |---------|-----|------|
-| **本プロジェクト** | [GitHub](https://github.com/nahisaho/KOTODAMA) | 32種類の教育専門IAPテンプレート |
-| **プロンプトテンプレート** | [GitHub](https://github.com/nahisaho/KOTODAMA/tree/main/templates) | 自作用のテンプレートファイル |
+| **本プロジェクト** | [GitHub](https://github.com/nahisaho/KOTODAMA4Edu) | 32種類の教育専門IAPテンプレート |
+| **プロンプトテンプレート** | [GitHub](https://github.com/nahisaho/KOTODAMA4Edu/tree/main/templates) | 自作用のテンプレートファイル |
 
 ---
 
@@ -2201,7 +2202,7 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 
 ## 関連リンク
 
-- [KOTODAMA GitHub リポジトリ](https://github.com/nahisaho/KOTODAMA)
+- [KOTODAMA4Edu GitHub リポジトリ](https://github.com/nahisaho/KOTODAMA4Edu)
 
 ### 学校現場系テンプレート（23種類）
 - [教育者向けプロンプト](templates/educator-interactive-agentic-prompt.md)
@@ -2244,30 +2245,30 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 ## 参考文献
 
 ### 学習理論・教育学
-- Piaget, J. (1952). The Origins of Intelligence in Children
-- Vygotsky, L. S. (1978). Mind in Society
-- Bruner, J. S. (1966). Toward a Theory of Instruction
-- Gagné, R. M. (1985). The Conditions of Learning
+- Piaget, J. (1952). The Origins of Intelligence in Children. [Google Books](https://books.google.com/books?id=IZ3xCwAAQBAJ)
+- Vygotsky, L. S. (1978). Mind in Society. [Google Books](https://books.google.com/books?id=Irq913lEZ1QC)
+- Bruner, J. S. (1966). Toward a Theory of Instruction. [Google Books](https://books.google.com/books?id=3bYbAAAAIAAJ)
+- Gagné, R. M. (1985). The Conditions of Learning. [Google Books](https://books.google.com/books?id=WXIUAQAAMAAJ)
 
 ### 動機づけ理論
-- Deci, E. L., & Ryan, R. M. (2000). Self-Determination Theory
-- Dweck, C. S. (2006). Mindset: The New Psychology of Success
-- Bandura, A. (1997). Self-efficacy: The Exercise of Control
+- Deci, E. L., & Ryan, R. M. (2000). Self-Determination Theory. [公式サイト](https://selfdeterminationtheory.org/)
+- Dweck, C. S. (2006). Mindset: The New Psychology of Success. [著者サイト](https://mindsetworks.com/)
+- Bandura, A. (1997). Self-efficacy: The Exercise of Control. [Google Books](https://books.google.com/books?id=eJ-PN9g_o-EC)
 
 ### 教授設計
-- Merrill, M. D. (2002). First Principles of Instruction
-- Wiggins, G., & McTighe, J. (2005). Understanding by Design
-- Keller, J. M. (2010). Motivational Design for Learning and Performance
+- Merrill, M. D. (2002). First Principles of Instruction. [論文](https://www.sciencedirect.com/science/article/abs/pii/S1747938X12000218)
+- Wiggins, G., & McTighe, J. (2005). Understanding by Design. [ASCD](https://www.ascd.org/books/understanding-by-design-expanded-2nd-edition)
+- Keller, J. M. (2010). Motivational Design for Learning and Performance. [Springer](https://link.springer.com/book/10.1007/978-1-4419-1250-3)
 
 ### 組織変革・イノベーション
-- Rogers, E. M. (2003). Diffusion of Innovations
-- Kotter, J. P. (2012). Leading Change
-- Moore, G. A. (2014). Crossing the Chasm
+- Rogers, E. M. (2003). Diffusion of Innovations. [Google Books](https://books.google.com/books?id=v1ii4QsB7jIC)
+- Kotter, J. P. (2012). Leading Change. [Harvard Business Press](https://store.hbr.org/product/leading-change/8515)
+- Moore, G. A. (2014). Crossing the Chasm. [Google Books](https://books.google.com/books?id=yJXNCgAAQBAJ)
 
 ### プロンプトエンジニアリング
-- OpenAI. (2023). GPT Best Practices
-- Anthropic. (2024). Claude's Character
-- Google. (2024). Prompting Guide
+- OpenAI. (2023). GPT Best Practices. [公式ドキュメント](https://platform.openai.com/docs/guides/prompt-engineering)
+- Anthropic. (2024). Claude's Character. [公式ドキュメント](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
+- Google. (2024). Prompting Guide. [公式ドキュメント](https://ai.google.dev/gemini-api/docs/prompting-strategies)
 
 ---
 
@@ -2282,6 +2283,7 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 | 日付 | 更新内容 |
 |------|---------|
 | 2025-12-21 | 初版公開 |
+| 2025-12-22 | AIモデル別適用ガイドにMicrosoft 365 Copilotを追加、参考文献にURLを追加 |
 
 ---
 
