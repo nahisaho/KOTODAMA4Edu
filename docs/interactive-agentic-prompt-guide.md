@@ -122,7 +122,6 @@ flowchart LR
 > この記事を読み終える頃には、あなた自身の専門分野で活用できる
 > Interactive Agentic Prompt を設計できるようになっているでしょう。
 
----
 
 # 第2章 設計思想と基本原則
 
@@ -369,7 +368,6 @@ Interactive Agentic Prompt では、理論を3層構造で組み込みます。
 > 4. **理論統合**: 根拠のある専門的な提案を可能に
 > 5. **品質強化**: 思考チェーン、チェックリスト、エラー回復で高品質を維持
 
----
 
 # 第3章 5フェーズ構造の詳細解説
 
@@ -764,7 +762,6 @@ flowchart TB
 > 各フェーズが明確な役割を持ち、順序立てて進むことで、
 > 漏れなく必要な情報を収集し、根拠のある提案を生成できます。
 
----
 
 # 第4章 理論・フレームワーク統合の設計
 
@@ -1003,7 +1000,6 @@ THEN 各課題に対応する理論を組み合わせ
 > 単に理論を列挙するのではなく、**選択ガイドライン**を設計することで、
 > AIが状況に応じて適切な理論を自動選択できるようになります。
 
----
 
 # 第5章 実践例：教育系プロンプトの実装例
 
@@ -1435,7 +1431,6 @@ flowchart TB
 > これにより、**設計パターンの再利用**と**ドメイン固有のカスタマイズ**を
 > 両立しています。
 
----
 
 # 第6章 Interactive Agentic Prompt を使う価値
 
@@ -1668,7 +1663,6 @@ IAP: 即座に専門的な情報・提案を得られる
 > 
 > これは、AIの力を**本当に必要としている人々**に届けるための設計です。
 
----
 
 # 第7章 自分だけの Interactive Agentic Prompt を作る
 
@@ -2057,7 +2051,6 @@ flowchart TB
 > 完璧を目指さず、まずはシンプルなバージョンを作り、
 > 使いながら改善していくアプローチが効果的です。
 
----
 
 # 第8章 まとめと今後の展望
 
@@ -2199,8 +2192,8 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 
 | リソース | URL | 説明 |
 |---------|-----|------|
-| **本プロジェクト** | GitHub | 32種類の教育専門IAPテンプレート |
-| **プロンプトテンプレート** | GitHub | 自作用のテンプレートファイル |
+| **本プロジェクト** | [GitHub](https://github.com/nahisaho/KOTODAMA) | 32種類の教育専門IAPテンプレート |
+| **プロンプトテンプレート** | [GitHub](https://github.com/nahisaho/KOTODAMA/tree/main/templates) | 自作用のテンプレートファイル |
 
 ---
 
@@ -2208,7 +2201,7 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 
 ## 関連リンク
 
-- [Interactive Agentic Prompts GitHub リポジトリ](https://github.com/)
+- [KOTODAMA GitHub リポジトリ](https://github.com/nahisaho/KOTODAMA)
 
 ### 学校現場系テンプレート（23種類）
 - [教育者向けプロンプト](templates/educator-interactive-agentic-prompt.md)
