@@ -80,7 +80,7 @@ flowchart TB
 | **第2章** | 設計思想と基本原則 | なぜこの設計が効果的なのか、理論的背景を理解 |
 | **第3章** | 5フェーズ構造の詳細解説 | 実装の核となるアーキテクチャを習得 |
 | **第4章** | 理論・フレームワーク統合の設計 | 専門知識をどう組み込むかを学ぶ |
-| **第5章** | 実践例（32種類の教育系プロンプト） | 具体的な実装例で理解を深める |
+| **第5章** | 実践例（41種類の教育系プロンプト） | 具体的な実装例で理解を深める |
 | **第6章** | Interactive Agentic Prompt を使う価値 | 導入効果とROIを把握 |
 | **第7章** | 自分だけのIAPを作る | 実践的な作成ガイド |
 | **第8章** | まとめと今後の展望 | 次のステップへ |
@@ -323,7 +323,7 @@ Interactive Agentic Prompt では、理論を3層構造で組み込みます。
 
 ## 2.5 回答品質強化アプローチ（v1.1新機能）
 
-本プロジェクトでは、全32種類のテンプレートに**回答品質強化セクション**と**AIモデル別適用ガイド**を実装しています。
+本プロジェクトでは、全41種類のテンプレートに**回答品質強化セクション**と**AIモデル別適用ガイド**を実装しています。
 
 ### 回答品質強化セクションの構成
 
@@ -1004,7 +1004,7 @@ THEN 各課題に対応する理論を組み合わせ
 
 # 第5章 実践例：教育系プロンプトの実装例
 
-ここでは、実際に設計・実装した Interactive Agentic Prompt の中から4つの代表例を紹介します。本プロジェクトでは、**32種類**の教育専門IAPテンプレートを提供しています。それぞれが異なる専門領域をカバーし、豊富な理論・フレームワークを統合しています。
+ここでは、実際に設計・実装した Interactive Agentic Prompt の中から4つの代表例を紹介します。本プロジェクトでは、**41種類**の教育専門IAPテンプレートを提供しています。それぞれが異なる専門領域をカバーし、豊富な理論・フレームワークを統合しています。
 
 ## 5.1 教育者向けプロンプト — 学習理論から授業設計へ
 
@@ -2167,7 +2167,7 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 ## 実践への第一歩
 
 ### レベル1: 体験する（1-2時間）
-□ 本記事で紹介した教育系プロンプト（32種類）を試してみる
+□ 本記事で紹介した教育系プロンプト（41種類）を試してみる
 □ 対話の流れを体感する
 □ どのような提案が得られるか確認する
 
@@ -2193,7 +2193,7 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 
 | リソース | URL | 説明 |
 |---------|-----|------|
-| **本プロジェクト** | [GitHub](https://github.com/nahisaho/KOTODAMA4Edu) | 32種類の教育専門IAPテンプレート |
+| **本プロジェクト** | [GitHub](https://github.com/nahisaho/KOTODAMA4Edu) | 41種類の教育専門IAPテンプレート |
 | **プロンプトテンプレート** | [GitHub](https://github.com/nahisaho/KOTODAMA4Edu/tree/main/templates) | 自作用のテンプレートファイル |
 
 ---
@@ -2204,18 +2204,18 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 
 - [KOTODAMA4Edu GitHub リポジトリ](https://github.com/nahisaho/KOTODAMA4Edu)
 
-### 学校現場系テンプレート（23種類）
+### 学校現場系テンプレート（25種類）
 - [教育者向けプロンプト](templates/educator-interactive-agentic-prompt.md)
 - [学習カウンセラー向けプロンプト](templates/learning-counselor-interactive-agentic-prompt.md)
 - [特別支援コーディネーター向けプロンプト](templates/special-needs-coordinator-interactive-agentic-prompt.md)
 - [学校管理職向けプロンプト](templates/school-administrator-interactive-agentic-prompt.md)
 - [進路指導向けプロンプト](templates/career-counselor-interactive-agentic-prompt.md)
 - [生徒指導向けプロンプト](templates/student-guidance-interactive-agentic-prompt.md)
-- [養護教諞向けプロンプト](templates/school-nurse-interactive-agentic-prompt.md)
+- [養護教諭向けプロンプト](templates/school-nurse-interactive-agentic-prompt.md)
 - [スクールカウンセラー向けプロンプト](templates/school-counselor-interactive-agentic-prompt.md)
 - [スクールソーシャルワーカー向けプロンプト](templates/school-social-worker-interactive-agentic-prompt.md)
-- [栄養教諞向けプロンプト](templates/nutrition-teacher-interactive-agentic-prompt.md)
-- [司書教諞向けプロンプト](templates/school-librarian-interactive-agentic-prompt.md)
+- [栄養教諭向けプロンプト](templates/nutrition-teacher-interactive-agentic-prompt.md)
+- [司書教諭向けプロンプト](templates/school-librarian-interactive-agentic-prompt.md)
 - [部活動顧問向けプロンプト](templates/club-activity-advisor-interactive-agentic-prompt.md)
 - [学年主任向けプロンプト](templates/grade-leader-interactive-agentic-prompt.md)
 - [新任教員メンター向けプロンプト](templates/teacher-mentor-interactive-agentic-prompt.md)
@@ -2228,6 +2228,8 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 - [カリキュラムコーディネーター向けプロンプト](templates/curriculum-coordinator-interactive-agentic-prompt.md)
 - [日本語指導担当向けプロンプト](templates/japanese-language-instructor-interactive-agentic-prompt.md)
 - [進学・接続コーディネーター向けプロンプト](templates/school-transition-coordinator-interactive-agentic-prompt.md)
+- [教科主任向けプロンプト](templates/academic-department-head-interactive-agentic-prompt.md)
+- [入試・広報担当向けプロンプト](templates/admissions-officer-interactive-agentic-prompt.md)
 
 ### 教育行政系テンプレート（9種類）
 - [教育委員会向けプロンプト](templates/board-of-education-interactive-agentic-prompt.md)
@@ -2239,8 +2241,17 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 - [教育長向けプロンプト](templates/superintendent-interactive-agentic-prompt.md)
 - [人事管理者向けプロンプト](templates/personnel-administrator-interactive-agentic-prompt.md)
 - [EdTech DXコンサルタント向けプロンプト](templates/edtech-dx-consultant-interactive-agentic-prompt.md)
-- [特別支援コーディネーター向けプロンプト](templates/special-needs-coordinator-interactive-agentic-prompt.md)
-- [EdTech DXコンサルタント向けプロンプト](templates/edtech-dx-consultant-interactive-agentic-prompt.md)
+
+### 大学・高等教育系テンプレート（4種類）
+- [大学教員向けプロンプト](templates/university-faculty-interactive-agentic-prompt.md)
+- [大学学生相談室向けプロンプト](templates/university-student-counselor-interactive-agentic-prompt.md)
+- [大学キャリアセンター向けプロンプト](templates/university-career-support-interactive-agentic-prompt.md)
+- [産学連携コーディネーター向けプロンプト](templates/industry-academia-coordinator-interactive-agentic-prompt.md)
+
+### その他専門テンプレート（3種類）
+- [ファカルティ・デベロッパー向けプロンプト](templates/faculty-developer-interactive-agentic-prompt.md)
+- [留学生支援担当向けプロンプト](templates/international-student-support-interactive-agentic-prompt.md)
+- [研究指導者向けプロンプト](templates/research-supervisor-interactive-agentic-prompt.md)
 
 ## 参考文献
 
@@ -2284,6 +2295,7 @@ Interactive Agentic Prompt は、教育分野以外にも幅広く適用可能�
 |------|---------|
 | 2025-12-21 | 初版公開 |
 | 2025-12-22 | AIモデル別適用ガイドにMicrosoft 365 Copilotを追加、参考文献にURLを追加 |
+| 2025-12-22 | テンプレート数を32種類から41種類に更新、テンプレート一覧を最新化（大学・高等教育系、その他専門テンプレートを追加） |
 
 ---
 

@@ -45,7 +45,7 @@
 
 ## テンプレート一覧
 
-全**32種類**のテンプレートを提供しています。
+全**41種類**のテンプレートを提供しています。
 
 ### 学校現場系（23種類）
 
@@ -65,6 +65,14 @@
 | **行政** | [教育長](templates/superintendent-interactive-agentic-prompt.md)、[教育委員会](templates/board-of-education-interactive-agentic-prompt.md)、[人事管理](templates/personnel-administrator-interactive-agentic-prompt.md) |
 | **指導主事** | [学校教育指導主事](templates/school-supervisor-interactive-agentic-prompt.md)、[生徒指導指導主事](templates/student-guidance-supervisor-interactive-agentic-prompt.md)、[特別支援指導主事](templates/special-needs-supervisor-interactive-agentic-prompt.md) |
 | **その他** | [教育センター](templates/education-center-interactive-agentic-prompt.md)、[社会教育](templates/social-education-coordinator-interactive-agentic-prompt.md)、[教師メンター](templates/teacher-mentor-interactive-agentic-prompt.md) |
+
+### 高等教育系（9種類） 🆕
+
+| カテゴリ | テンプレート |
+|---------|-------------|
+| **教育・研究** | [大学教員](templates/university-faculty-interactive-agentic-prompt.md)、[研究指導者](templates/research-supervisor-interactive-agentic-prompt.md)、[FD担当者](templates/faculty-developer-interactive-agentic-prompt.md) |
+| **学生支援** | [キャリア支援](templates/university-career-support-interactive-agentic-prompt.md)、[留学生支援](templates/international-student-support-interactive-agentic-prompt.md)、[学生相談](templates/university-student-counselor-interactive-agentic-prompt.md) |
+| **大学運営** | [学部長・学科長](templates/academic-department-head-interactive-agentic-prompt.md)、[産学連携コーディネーター](templates/industry-academia-coordinator-interactive-agentic-prompt.md)、[入試広報担当](templates/admissions-officer-interactive-agentic-prompt.md) |
 
 ## 各テンプレートの詳細説明
 
@@ -135,6 +143,20 @@
 | **[社会教育](templates/social-education-coordinator-interactive-agentic-prompt.md)**<br>`social-education-coordinator-interactive-agentic-prompt.md` | 社会教育・生涯学習を推進したい | 公民館活動、生涯学習、地域学校協働、青少年教育 |
 | **[教師メンター](templates/teacher-mentor-interactive-agentic-prompt.md)**<br>`teacher-mentor-interactive-agentic-prompt.md` | 新任・若手教員を育成したい | 初任者指導、OJT、授業力向上、メンタルヘルス |
 
+### 🎓 高等教育系 🆕
+
+| テンプレート | こんな時に使う | 主な相談内容 |
+|-------------|---------------|-------------|
+| **[大学教員](templates/university-faculty-interactive-agentic-prompt.md)**<br>`university-faculty-interactive-agentic-prompt.md` | 大学の授業・講義を改善したい | 授業設計、アクティブラーニング、成績評価、オンライン授業 |
+| **[研究指導者](templates/research-supervisor-interactive-agentic-prompt.md)**<br>`research-supervisor-interactive-agentic-prompt.md` | ゼミ・大学院生の研究指導を充実させたい | ゼミ運営、論文指導、研究倫理、院生のメンタルヘルス |
+| **[FD担当者](templates/faculty-developer-interactive-agentic-prompt.md)**<br>`faculty-developer-interactive-agentic-prompt.md` | 教員の授業改善を組織的に支援したい | FD研修企画、授業コンサルテーション、教育改善 |
+| **[キャリア支援](templates/university-career-support-interactive-agentic-prompt.md)**<br>`university-career-support-interactive-agentic-prompt.md` | 大学生の就職・キャリア形成を支援したい | キャリア相談、就活支援、キャリア教育、企業連携 |
+| **[留学生支援](templates/international-student-support-interactive-agentic-prompt.md)**<br>`international-student-support-interactive-agentic-prompt.md` | 留学生の学習・生活を支援したい | 異文化適応、日本語支援、就職支援、交流促進 |
+| **[学生相談](templates/university-student-counselor-interactive-agentic-prompt.md)**<br>`university-student-counselor-interactive-agentic-prompt.md` | 大学生のメンタルヘルスを支援したい | 心理相談、発達障害支援、危機対応、合理的配慮 |
+| **[学部長・学科長](templates/academic-department-head-interactive-agentic-prompt.md)**<br>`academic-department-head-interactive-agentic-prompt.md` | 学部・学科の運営を改善したい | 組織運営、カリキュラム改革、教員マネジメント、認証評価 |
+| **[産学連携コーディネーター](templates/industry-academia-coordinator-interactive-agentic-prompt.md)**<br>`industry-academia-coordinator-interactive-agentic-prompt.md` | 産学連携・研究協力を推進したい | 共同研究、知財管理、技術移転、スタートアップ支援 |
+| **[入試広報担当](templates/admissions-officer-interactive-agentic-prompt.md)**<br>`admissions-officer-interactive-agentic-prompt.md` | 学生募集・入試広報を強化したい | 志願者確保、広報戦略、オープンキャンパス、高大連携 |
+
 ## 使い方
 
 ### 1. テンプレートの選択
@@ -166,6 +188,7 @@ AIが段階的に質問を重ね、あなたの状況を深く理解していき
 ## ドキュメント
 
 - [Interactive Agentic Prompt 完全ガイド](docs/interactive-agentic-prompt-guide.md) - 設計思想から実装方法まで包括的に解説
+- [IAP作成マニフェスト](docs/iap-creation-manifest.md) - 他分野向けIAPを作成するための設計指針 🆕
 
 ## プロジェクト構造
 
@@ -181,7 +204,7 @@ KOTODAMA/
 │   ├── tech.md
 │   └── rules/
 │       └── constitution.md
-└── templates/                # 32種類のIAPテンプレート
+└── templates/                # 41種類のIAPテンプレート
     ├── educator-interactive-agentic-prompt.md
     ├── learning-counselor-interactive-agentic-prompt.md
     └── ...
@@ -207,6 +230,7 @@ Phase 1 (Discovery) → Phase 2 (Context Gathering) → Phase 3 (SKILL Selection
 
 | バージョン | 日付 | 変更内容 |
 |-----------|------|----------|
+| v1.2 | 2025-12-22 | 高等教育系テンプレート9種類を追加（大学教員、研究指導者、FD担当者、キャリア支援、留学生支援、学生相談、学部長・学科長、産学連携、入試広報）。全41テンプレートに拡充 |
 | v1.1 | 2025-12-21 | 全32テンプレートに回答品質強化セクション・AIモデル別適用ガイドを追加 |
 | v1.0 | 2025-12-20 | 初回リリース（32種類のテンプレート） |
 
