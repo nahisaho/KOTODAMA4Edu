@@ -1,8 +1,8 @@
 # Project Structure
 
 **Project**: InteractiveAgenticPrompts (KOTODAMA)
-**Last Updated**: 2025-12-21
-**Version**: 1.4
+**Last Updated**: 2025-12-22
+**Version**: 1.5
 
 ---
 
@@ -23,42 +23,19 @@
 InteractiveAgenticPrompts/
 ├── docs/                     # ドキュメンテーション
 │   ├── interactive-agentic-prompt-guide.md  # IAPガイド記事
+│   ├── iap-creation-manifest.md             # IAP作成マニフェスト
 │   └── Wrighting_Qiita.md                    # Qiita記事下書き
-├── templates/                # IAPテンプレート集（32種類）
-│   ├── # 学校現場系（23種類）
-│   ├── educator-interactive-agentic-prompt.md
-│   ├── learning-counselor-interactive-agentic-prompt.md
-│   ├── special-needs-coordinator-interactive-agentic-prompt.md
-│   ├── school-administrator-interactive-agentic-prompt.md
-│   ├── career-counselor-interactive-agentic-prompt.md
-│   ├── student-guidance-interactive-agentic-prompt.md
-│   ├── school-nurse-interactive-agentic-prompt.md
-│   ├── school-counselor-interactive-agentic-prompt.md
-│   ├── school-social-worker-interactive-agentic-prompt.md
-│   ├── nutrition-teacher-interactive-agentic-prompt.md
-│   ├── school-librarian-interactive-agentic-prompt.md
-│   ├── club-activity-advisor-interactive-agentic-prompt.md
-│   ├── grade-leader-interactive-agentic-prompt.md
-│   ├── teacher-mentor-interactive-agentic-prompt.md
-│   ├── parent-relations-interactive-agentic-prompt.md
-│   ├── safety-disaster-coordinator-interactive-agentic-prompt.md
-│   ├── school-facilities-manager-interactive-agentic-prompt.md
-│   ├── special-activities-coordinator-interactive-agentic-prompt.md
-│   ├── moral-education-coordinator-interactive-agentic-prompt.md
-│   ├── ict-education-coordinator-interactive-agentic-prompt.md
-│   ├── curriculum-coordinator-interactive-agentic-prompt.md
-│   ├── japanese-language-instructor-interactive-agentic-prompt.md
-│   ├── school-transition-coordinator-interactive-agentic-prompt.md
-│   ├── # 教育行政系（9種類）
-│   ├── board-of-education-interactive-agentic-prompt.md
-│   ├── education-center-interactive-agentic-prompt.md
-│   ├── school-supervisor-interactive-agentic-prompt.md
-│   ├── special-needs-supervisor-interactive-agentic-prompt.md
-│   ├── student-guidance-supervisor-interactive-agentic-prompt.md
-│   ├── social-education-coordinator-interactive-agentic-prompt.md
-│   ├── superintendent-interactive-agentic-prompt.md
-│   ├── personnel-administrator-interactive-agentic-prompt.md
-│   └── edtech-dx-consultant-interactive-agentic-prompt.md
+├── templates/                # IAPテンプレート集（41種類）
+│   ├── full/                 # フル版（詳細版・約13,000文字）
+│   │   ├── educator-interactive-agentic-prompt.md
+│   │   ├── learning-counselor-interactive-agentic-prompt.md
+│   │   ├── ... (全41ファイル)
+│   │   └── university-student-counselor-interactive-agentic-prompt.md
+│   └── compact/              # コンパクト版（8,000文字以内）
+│       ├── educator-interactive-agentic-prompt.md
+│       ├── learning-counselor-interactive-agentic-prompt.md
+│       ├── ... (全41ファイル)
+│       └── university-student-counselor-interactive-agentic-prompt.md
 ├── storage/                  # SDD成果物
 │   ├── specs/                # 要件・設計・タスク
 │   ├── changes/              # 変更仕様
@@ -281,6 +258,13 @@ nutrition-teacher-interactive-agentic-prompt.md を新規作成。
 
 ## Changelog
 
+### Version 1.5 (2025-12-22)
+
+- テンプレートを full/ と compact/ の2ディレクトリ構成に変更
+- コンパクト版（8,000文字以内）41ファイルを追加
+- 高等教育系テンプレート9種類を追加（計41種類）
+- IAP作成マニフェストをdocs/に追加
+
 ### Version 1.4 (2025-12-21)
 
 - ルートディレクトリにREADME.mdを追加
@@ -305,5 +289,5 @@ nutrition-teacher-interactive-agentic-prompt.md を新規作成。
 
 ---
 
-**Last Updated**: 2025-12-21
-**Version**: 1.4
+**Last Updated**: 2025-12-22
+**Version**: 1.5
