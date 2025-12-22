@@ -1682,9 +1682,3 @@ NPO・NGO:
 - Miller, G. A. (1956). The magical number seven, plus or minus two
 - Cowan, N. (2001). The magical number 4 in short-term memory
 - 各分野の専門テキスト・ガイドライン
-
----
-
-**Last Updated**: 2025-12-22
-**Version**: 1.0
-**Author**: KOTODAMA Project
