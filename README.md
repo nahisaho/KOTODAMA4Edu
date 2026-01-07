@@ -268,7 +268,15 @@ Phase 1 (Discovery) → Phase 2 (Context Gathering) → Phase 3 (SKILL Selection
 
 ## ライセンス
 
-MIT License
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+このプロジェクトは [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/) の下で公開されています。
+
+- ✅ 非営利目的での使用・改変・再配布が可能
+- ✅ クレジット表示が必要
+- ❌ 商用利用は禁止
+
+商用利用をご希望の場合は、著作権者にお問い合わせください。
 
 ---
 
