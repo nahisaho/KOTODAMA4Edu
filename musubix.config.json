@@ -1,0 +1,23 @@
+{
+  "version": "1.7.5",
+  "project": "KOTODAMA4Edu",
+  "steeringDir": "./steering",
+  "storageDir": "./storage",
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-4-20250514",
+    "maxTokens": 4096,
+    "temperature": 0.7
+  },
+  "yata": {
+    "transport": "stdio",
+    "server": "yata-mcp",
+    "timeout": 30000
+  },
+  "integration": {
+    "neuralThreshold": 0.7,
+    "symbolicThreshold": 0.8,
+    "defaultStrategy": "neural-validated",
+    "gracefulDegradation": true
+  }
+}

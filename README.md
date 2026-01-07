@@ -19,14 +19,25 @@
 
 従来のプロンプトとは異なり、AIが「一問一答」形式で質問を投げかけ、ユーザーの状況を深く理解した上で、専門家レベルの回答を提供します。
 
-### 📦 2つのバリエーション
+### 📦 テンプレートバリエーション
 
 | バージョン | 文字数 | 用途 |
 |------------|--------|------|
 | **フル版** (`templates/full/`) | 約13,000文字 | 詳細な理論・フレームワークを含む完全版 |
 | **コンパクト版** (`templates/compact/`) | 8,000文字以内 | トークン制限のあるAI向けに圧縮 |
 
-> 💡 **推奨**: ClaudeやGPT-4などコンテキストの長いAIにはフル版、ChatGPT無料版などにはコンパクト版をご利用ください。
+### 🤖 LLM最適化版 (v1.4 新機能)
+
+各LLMの特性に合わせて最適化されたプロンプトを提供しています。
+
+| LLM | ディレクトリ | 最適化特徴 |
+|-----|-------------|-----------|
+| **GPT-4o/5** | `templates/gpt/` | 英語System Prompt見出し、IMPORTANT REMINDERS、推奨パラメータ設定 |
+| **Claude 4.x** | `templates/claude/` | XMLタグ構造化、Extended Thinking活用ガイド、Claude Projects連携 |
+| **MS Copilot** | `templates/copilot/` | Role and Purpose見出し、M365 Integration Tips、KEY REMINDERS |
+| **Gemini Pro** | `templates/gemini/` | 太字見出し形式、Critical Rules、Google Workspace連携 |
+
+> 💡 **推奨**: お使いのLLMに対応した最適化版を使用することで、より効果的な対話が可能です。
 
 ## 特徴
 
@@ -204,6 +215,7 @@ AIが段階的に質問を重ね、あなたの状況を深く理解していき
 ```
 KOTODAMA/
 ├── README.md                 # このファイル
+├── CHANGELOG.md              # 変更履歴
 ├── AGENTS.md                 # エージェント設定
 ├── docs/
 │   ├── interactive-agentic-prompt-guide.md  # 完全ガイド
@@ -216,13 +228,11 @@ KOTODAMA/
 │       └── constitution.md
 └── templates/                # 41種類のIAPテンプレート
     ├── full/                 # フル版（詳細版）
-    │   ├── educator-interactive-agentic-prompt.md
-    │   ├── learning-counselor-interactive-agentic-prompt.md
-    │   └── ...
-    └── compact/              # コンパクト版（8,000文字以内）
-        ├── educator-interactive-agentic-prompt.md
-        ├── learning-counselor-interactive-agentic-prompt.md
-        └── ...
+    ├── compact/              # コンパクト版（8,000文字以内）
+    ├── gpt/                  # GPT最適化版 🆕
+    ├── claude/               # Claude最適化版 🆕
+    ├── copilot/              # Copilot最適化版 🆕
+    └── gemini/               # Gemini最適化版 🆕
 ```
 
 ## 5フェーズアーキテクチャ
@@ -245,10 +255,13 @@ Phase 1 (Discovery) → Phase 2 (Context Gathering) → Phase 3 (SKILL Selection
 
 | バージョン | 日付 | 変更内容 |
 |-----------|------|----------|
+| v1.4 | 2026-01-07 | LLM最適化版を追加（GPT/Claude/Copilot/Gemini各41テンプレート、計164ファイル）。各LLMの特性に合わせた構造・表現を適用 |
 | v1.3 | 2025-12-22 | ディレクトリ構造を`full/`・`compact/`に再編成。コンパクト版（8,000文字以内）41テンプレートを追加 |
 | v1.2 | 2025-12-22 | 高等教育系テンプレート9種類を追加（大学教員、研究指導者、FD担当者、キャリア支援、留学生支援、学生相談、学部長・学科長、産学連携、入試広報）。全41テンプレートに拡充 |
 | v1.1 | 2025-12-21 | 全32テンプレートに回答品質強化セクション・AIモデル別適用ガイドを追加 |
 | v1.0 | 2025-12-20 | 初回リリース（32種類のテンプレート） |
+
+詳細な変更履歴は [CHANGELOG.md](CHANGELOG.md) をご覧ください。
 
 ## 貢献
 
