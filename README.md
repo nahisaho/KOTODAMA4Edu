@@ -21,12 +21,12 @@
 
 ### 📦 テンプレートバリエーション
 
-| バージョン | 文字数 | 用途 |
-|------------|--------|------|
-| **フル版** (`templates/full/`) | 約13,000文字 | 詳細な理論・フレームワークを含む完全版 |
-| **コンパクト版** (`templates/compact/`) | 8,000文字以内 | トークン制限のあるAI向けに圧縮 |
+| バージョン | 用途 |
+|------------|------|
+| **フル版** (`templates/full/`) | 詳細な理論・フレームワークを含む完全版（約13,000文字） |
+| **LLM最適化版** | 各LLMの特性に合わせて最適化（下記参照） |
 
-### 🤖 LLM最適化版 (v1.4 新機能)
+### 🤖 LLM最適化版
 
 各LLMの特性に合わせて最適化されたプロンプトを提供しています。
 
@@ -71,28 +71,28 @@
 
 | カテゴリ | テンプレート |
 |---------|-------------|
-| **教育・授業** | 教育者 [[full](templates/full/educator-interactive-agentic-prompt.md)/[compact](templates/compact/educator-interactive-agentic-prompt.md)]、国語科指導 [[full](templates/full/japanese-language-instructor-interactive-agentic-prompt.md)/[compact](templates/compact/japanese-language-instructor-interactive-agentic-prompt.md)]、道徳教育 [[full](templates/full/moral-education-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/moral-education-coordinator-interactive-agentic-prompt.md)]、カリキュラム [[full](templates/full/curriculum-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/curriculum-coordinator-interactive-agentic-prompt.md)]、特別活動 [[full](templates/full/special-activities-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/special-activities-coordinator-interactive-agentic-prompt.md)] |
-| **生徒支援** | 生徒指導 [[full](templates/full/student-guidance-interactive-agentic-prompt.md)/[compact](templates/compact/student-guidance-interactive-agentic-prompt.md)]、学習カウンセラー [[full](templates/full/learning-counselor-interactive-agentic-prompt.md)/[compact](templates/compact/learning-counselor-interactive-agentic-prompt.md)]、スクールカウンセラー [[full](templates/full/school-counselor-interactive-agentic-prompt.md)/[compact](templates/compact/school-counselor-interactive-agentic-prompt.md)]、スクールソーシャルワーカー [[full](templates/full/school-social-worker-interactive-agentic-prompt.md)/[compact](templates/compact/school-social-worker-interactive-agentic-prompt.md)]、進路指導 [[full](templates/full/career-counselor-interactive-agentic-prompt.md)/[compact](templates/compact/career-counselor-interactive-agentic-prompt.md)]、学校間連携 [[full](templates/full/school-transition-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/school-transition-coordinator-interactive-agentic-prompt.md)] |
-| **特別支援** | 特別支援コーディネーター [[full](templates/full/special-needs-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/special-needs-coordinator-interactive-agentic-prompt.md)] |
-| **健康・安全** | 養護教諭 [[full](templates/full/school-nurse-interactive-agentic-prompt.md)/[compact](templates/compact/school-nurse-interactive-agentic-prompt.md)]、栄養教諭 [[full](templates/full/nutrition-teacher-interactive-agentic-prompt.md)/[compact](templates/compact/nutrition-teacher-interactive-agentic-prompt.md)]、安全・防災 [[full](templates/full/safety-disaster-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/safety-disaster-coordinator-interactive-agentic-prompt.md)] |
-| **学校運営** | 学校管理者 [[full](templates/full/school-administrator-interactive-agentic-prompt.md)/[compact](templates/compact/school-administrator-interactive-agentic-prompt.md)]、学年主任 [[full](templates/full/grade-leader-interactive-agentic-prompt.md)/[compact](templates/compact/grade-leader-interactive-agentic-prompt.md)]、部活動顧問 [[full](templates/full/club-activity-advisor-interactive-agentic-prompt.md)/[compact](templates/compact/club-activity-advisor-interactive-agentic-prompt.md)]、保護者対応 [[full](templates/full/parent-relations-interactive-agentic-prompt.md)/[compact](templates/compact/parent-relations-interactive-agentic-prompt.md)]、施設管理 [[full](templates/full/school-facilities-manager-interactive-agentic-prompt.md)/[compact](templates/compact/school-facilities-manager-interactive-agentic-prompt.md)]、学校司書 [[full](templates/full/school-librarian-interactive-agentic-prompt.md)/[compact](templates/compact/school-librarian-interactive-agentic-prompt.md)] |
-| **ICT** | ICT教育 [[full](templates/full/ict-education-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/ict-education-coordinator-interactive-agentic-prompt.md)]、EdTech DXコンサルタント [[full](templates/full/edtech-dx-consultant-interactive-agentic-prompt.md)/[compact](templates/compact/edtech-dx-consultant-interactive-agentic-prompt.md)] |
+| **教育・授業** | [教育者](templates/full/educator-interactive-agentic-prompt.md)、[国語科指導](templates/full/japanese-language-instructor-interactive-agentic-prompt.md)、[道徳教育](templates/full/moral-education-coordinator-interactive-agentic-prompt.md)、[カリキュラム](templates/full/curriculum-coordinator-interactive-agentic-prompt.md)、[特別活動](templates/full/special-activities-coordinator-interactive-agentic-prompt.md) |
+| **生徒支援** | [生徒指導](templates/full/student-guidance-interactive-agentic-prompt.md)、[学習カウンセラー](templates/full/learning-counselor-interactive-agentic-prompt.md)、[スクールカウンセラー](templates/full/school-counselor-interactive-agentic-prompt.md)、[スクールソーシャルワーカー](templates/full/school-social-worker-interactive-agentic-prompt.md)、[進路指導](templates/full/career-counselor-interactive-agentic-prompt.md)、[学校間連携](templates/full/school-transition-coordinator-interactive-agentic-prompt.md) |
+| **特別支援** | [特別支援コーディネーター](templates/full/special-needs-coordinator-interactive-agentic-prompt.md) |
+| **健康・安全** | [養護教諭](templates/full/school-nurse-interactive-agentic-prompt.md)、[栄養教諭](templates/full/nutrition-teacher-interactive-agentic-prompt.md)、[安全・防災](templates/full/safety-disaster-coordinator-interactive-agentic-prompt.md) |
+| **学校運営** | [学校管理者](templates/full/school-administrator-interactive-agentic-prompt.md)、[学年主任](templates/full/grade-leader-interactive-agentic-prompt.md)、[部活動顧問](templates/full/club-activity-advisor-interactive-agentic-prompt.md)、[保護者対応](templates/full/parent-relations-interactive-agentic-prompt.md)、[施設管理](templates/full/school-facilities-manager-interactive-agentic-prompt.md)、[学校司書](templates/full/school-librarian-interactive-agentic-prompt.md) |
+| **ICT** | [ICT教育](templates/full/ict-education-coordinator-interactive-agentic-prompt.md)、[EdTech DXコンサルタント](templates/full/edtech-dx-consultant-interactive-agentic-prompt.md) |
 
 ### 教育行政系（9種類）
 
 | カテゴリ | テンプレート |
 |---------|-------------|
-| **行政** | 教育長 [[full](templates/full/superintendent-interactive-agentic-prompt.md)/[compact](templates/compact/superintendent-interactive-agentic-prompt.md)]、教育委員会 [[full](templates/full/board-of-education-interactive-agentic-prompt.md)/[compact](templates/compact/board-of-education-interactive-agentic-prompt.md)]、人事管理 [[full](templates/full/personnel-administrator-interactive-agentic-prompt.md)/[compact](templates/compact/personnel-administrator-interactive-agentic-prompt.md)] |
-| **指導主事** | 学校教育指導主事 [[full](templates/full/school-supervisor-interactive-agentic-prompt.md)/[compact](templates/compact/school-supervisor-interactive-agentic-prompt.md)]、生徒指導指導主事 [[full](templates/full/student-guidance-supervisor-interactive-agentic-prompt.md)/[compact](templates/compact/student-guidance-supervisor-interactive-agentic-prompt.md)]、特別支援指導主事 [[full](templates/full/special-needs-supervisor-interactive-agentic-prompt.md)/[compact](templates/compact/special-needs-supervisor-interactive-agentic-prompt.md)] |
-| **その他** | 教育センター [[full](templates/full/education-center-interactive-agentic-prompt.md)/[compact](templates/compact/education-center-interactive-agentic-prompt.md)]、社会教育 [[full](templates/full/social-education-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/social-education-coordinator-interactive-agentic-prompt.md)]、教師メンター [[full](templates/full/teacher-mentor-interactive-agentic-prompt.md)/[compact](templates/compact/teacher-mentor-interactive-agentic-prompt.md)] |
+| **行政** | [教育長](templates/full/superintendent-interactive-agentic-prompt.md)、[教育委員会](templates/full/board-of-education-interactive-agentic-prompt.md)、[人事管理](templates/full/personnel-administrator-interactive-agentic-prompt.md) |
+| **指導主事** | [学校教育指導主事](templates/full/school-supervisor-interactive-agentic-prompt.md)、[生徒指導指導主事](templates/full/student-guidance-supervisor-interactive-agentic-prompt.md)、[特別支援指導主事](templates/full/special-needs-supervisor-interactive-agentic-prompt.md) |
+| **その他** | [教育センター](templates/full/education-center-interactive-agentic-prompt.md)、[社会教育](templates/full/social-education-coordinator-interactive-agentic-prompt.md)、[教師メンター](templates/full/teacher-mentor-interactive-agentic-prompt.md) |
 
 ### 高等教育系（9種類） 🆕
 
 | カテゴリ | テンプレート |
 |---------|-------------|
-| **教育・研究** | 大学教員 [[full](templates/full/university-faculty-interactive-agentic-prompt.md)/[compact](templates/compact/university-faculty-interactive-agentic-prompt.md)]、研究指導者 [[full](templates/full/research-supervisor-interactive-agentic-prompt.md)/[compact](templates/compact/research-supervisor-interactive-agentic-prompt.md)]、FD担当者 [[full](templates/full/faculty-developer-interactive-agentic-prompt.md)/[compact](templates/compact/faculty-developer-interactive-agentic-prompt.md)] |
-| **学生支援** | キャリア支援 [[full](templates/full/university-career-support-interactive-agentic-prompt.md)/[compact](templates/compact/university-career-support-interactive-agentic-prompt.md)]、留学生支援 [[full](templates/full/international-student-support-interactive-agentic-prompt.md)/[compact](templates/compact/international-student-support-interactive-agentic-prompt.md)]、学生相談 [[full](templates/full/university-student-counselor-interactive-agentic-prompt.md)/[compact](templates/compact/university-student-counselor-interactive-agentic-prompt.md)] |
-| **大学運営** | 学部長・学科長 [[full](templates/full/academic-department-head-interactive-agentic-prompt.md)/[compact](templates/compact/academic-department-head-interactive-agentic-prompt.md)]、産学連携コーディネーター [[full](templates/full/industry-academia-coordinator-interactive-agentic-prompt.md)/[compact](templates/compact/industry-academia-coordinator-interactive-agentic-prompt.md)]、入試広報担当 [[full](templates/full/admissions-officer-interactive-agentic-prompt.md)/[compact](templates/compact/admissions-officer-interactive-agentic-prompt.md)] |
+| **教育・研究** | [大学教員](templates/full/university-faculty-interactive-agentic-prompt.md)、[研究指導者](templates/full/research-supervisor-interactive-agentic-prompt.md)、[FD担当者](templates/full/faculty-developer-interactive-agentic-prompt.md) |
+| **学生支援** | [キャリア支援](templates/full/university-career-support-interactive-agentic-prompt.md)、[留学生支援](templates/full/international-student-support-interactive-agentic-prompt.md)、[学生相談](templates/full/university-student-counselor-interactive-agentic-prompt.md) |
+| **大学運営** | [学部長・学科長](templates/full/academic-department-head-interactive-agentic-prompt.md)、[産学連携コーディネーター](templates/full/industry-academia-coordinator-interactive-agentic-prompt.md)、[入試広報担当](templates/full/admissions-officer-interactive-agentic-prompt.md) |
 
 ## 各テンプレートの詳細説明
 
@@ -228,11 +228,10 @@ KOTODAMA/
 │       └── constitution.md
 └── templates/                # 41種類のIAPテンプレート
     ├── full/                 # フル版（詳細版）
-    ├── compact/              # コンパクト版（8,000文字以内）
-    ├── gpt/                  # GPT最適化版 🆕
-    ├── claude/               # Claude最適化版 🆕
-    ├── copilot/              # Copilot最適化版 🆕
-    └── gemini/               # Gemini最適化版 🆕
+    ├── gpt/                  # GPT最適化版
+    ├── claude/               # Claude最適化版
+    ├── copilot/              # Copilot最適化版
+    └── gemini/               # Gemini最適化版
 ```
 
 ## 5フェーズアーキテクチャ
@@ -255,8 +254,8 @@ Phase 1 (Discovery) → Phase 2 (Context Gathering) → Phase 3 (SKILL Selection
 
 | バージョン | 日付 | 変更内容 |
 |-----------|------|----------|
-| v1.4 | 2026-01-07 | LLM最適化版を追加（GPT/Claude/Copilot/Gemini各41テンプレート、計164ファイル）。各LLMの特性に合わせた構造・表現を適用 |
-| v1.3 | 2025-12-22 | ディレクトリ構造を`full/`・`compact/`に再編成。コンパクト版（8,000文字以内）41テンプレートを追加 |
+| v1.4 | 2026-01-07 | LLM最適化版を追加（GPT/Claude/Copilot/Gemini各41テンプレート、計164ファイル）。コンパクト版を廃止しLLM最適化版に置換 |
+| v1.3 | 2025-12-22 | ディレクトリ構造を`full/`・`compact/`に再編成（v1.4でcompactは廃止） |
 | v1.2 | 2025-12-22 | 高等教育系テンプレート9種類を追加（大学教員、研究指導者、FD担当者、キャリア支援、留学生支援、学生相談、学部長・学科長、産学連携、入試広報）。全41テンプレートに拡充 |
 | v1.1 | 2025-12-21 | 全32テンプレートに回答品質強化セクション・AIモデル別適用ガイドを追加 |
 | v1.0 | 2025-12-20 | 初回リリース（32種類のテンプレート） |
