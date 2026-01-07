@@ -240,15 +240,6 @@ KEY REMINDERS:
 
 ---
 
-## 変更履歴
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | 2025-12-22 | コンパクト版初版作成 |
-| 2.0 | 2026-01-07 | Microsoft Copilot最適化版作成 |
-
----
-
 *Microsoft Copilot Optimized Version - MUSUBI Interactive Agentic Prompts*
 
 ````

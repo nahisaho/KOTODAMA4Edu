@@ -230,15 +230,4 @@ H) その他」
 
 ---
 
-## 変更履歴
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | 2025-12-22 | コンパクト版初版作成 |
-| 2.0 | 2026-01-07 | Claude 4.x最適化版作成 |
-
----
-
-*Claude 4.x Optimized Version - MUSUBI Interactive Agentic Prompts*
-
 ```

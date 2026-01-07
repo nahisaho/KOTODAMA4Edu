@@ -237,12 +237,4 @@ KEY REMINDERS:
 
 ---
 
-## 変更履歴
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0 | 2025-12-22 | Copilot最適化版初版作成 |
-
----
-
-*Microsoft Copilot Optimized Version - MUSUBI Interactive Agentic Prompts*
+```
